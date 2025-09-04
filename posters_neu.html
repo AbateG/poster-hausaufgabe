@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erstklassige Minidialoge Poster</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .poster {
+            background: white;
+            border-radius: 15px;
+            margin: 30px 0;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.3s ease;
+        }
+        .poster:hover {
+            transform: translateY(-5px);
+        }
+        .poster img {
+            width: 100%;
+            max-width: 400px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .poster h2 {
+            color: #4a90e2;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .dialog {
+            line-height: 1.8;
+            font-size: 1.1em;
+            text-align: center;
+        }
+        .speaker {
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 5px solid #4a90e2;
+        }
+        .adjective {
+            color: #e74c3c;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .poster {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Erstklassige Minidialoge für Deutsch A2.1</h1>
+
+        <div class="poster">
+            <img src="cat.jpg" alt="Lustige Katze">
+            <h2>Katze</h2>
+            <div class="dialog">
+                <div class="speaker">A: Ich suche eine <span class="adjective">lustige</span> Katze.</div>
+                <div class="speaker">B: Was möchtest du mit einer <span class="adjective">lustigen</span> Katze machen?</div>
+                <div class="speaker">A: Mit der <span class="adjective">lustigen</span> Katze will ich spielen und kuscheln.</div>
+            </div>
+        </div>
+
+        <div class="poster">
+            <img src="dog.jpg" alt="Witziger Hund">
+            <h2>Hund</h2>
+            <div class="dialog">
+                <div class="speaker">A: Ich möchte einen <span class="adjective">witzigen</span> Hund.</div>
+                <div class="speaker">B: Warum brauchst du einen <span class="adjective">witzigen</span> Hund?</div>
+                <div class="speaker">A: Mit dem <span class="adjective">witzigen</span> Hund will ich spazieren gehen.</div>
+            </div>
+        </div>
+
+        <div class="poster">
+            <img src="parrot.jpg" alt="Bunter Papagei">
+            <h2>Papagei</h2>
+            <div class="dialog">
+                <div class="speaker">A: Ich suche einen <span class="adjective">bunten</span> Papagei.</div>
+                <div class="speaker">B: Was machst du mit einem <span class="adjective">bunten</span> Papagei?</div>
+                <div class="speaker">A: Mit dem <span class="adjective">bunten</span> Papagei will ich reden und lachen.</div>
+            </div>
+        </div>
+
+        <div class="poster">
+            <img src="rabbit.jpg" alt="Ruhiges Kaninchen">
+            <h2>Kaninchen</h2>
+            <div class="dialog">
+                <div class="speaker">A: Ich möchte ein <span class="adjective">ruhiges</span> Kaninchen.</div>
+                <div class="speaker">B: Wofür brauchst du ein <span class="adjective">ruhiges</span> Kaninchen?</div>
+                <div class="speaker">A: Mit dem <span class="adjective">ruhigen</span> Kaninchen will ich im Garten sitzen.</div>
+            </div>
+        </div>
+
+        <div class="poster">
+            <img src="hamster.jpg" alt="Kluger Hamster">
+            <h2>Hamster</h2>
+            <div class="dialog">
+                <div class="speaker">A: Ich suche einen <span class="adjective">klugen</span> Hamster.</div>
+                <div class="speaker">B: Was willst du mit einem <span class="adjective">klugen</span> Hamster machen?</div>
+                <div class="speaker">A: Mit dem <span class="adjective">klugen</span> Hamster will ich Tricks üben.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
